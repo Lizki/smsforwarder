@@ -6,25 +6,8 @@ import time
 
 interV = 30 #Script repeat interval in seconds
 looper = False #variable for deciding looping mechanisam
-print(f"Welcome to SMS forwarder by")
-print('''
-
- ██████╗██╗     ██╗ ██████╗██╗  ██╗███████╗                           
-██╔════╝██║     ██║██╔════╝██║ ██╔╝██╔════╝                           
-██║     ██║     ██║██║     █████╔╝ ███████╗                           
-██║     ██║     ██║██║     ██╔═██╗ ╚════██║                           
-╚██████╗███████╗██║╚██████╗██║  ██╗███████║                           
- ╚═════╝╚══════╝╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝                           
-                                                                      
-             █████╗ ███╗   ██╗██████╗     ██████╗ ██╗████████╗███████╗
-            ██╔══██╗████╗  ██║██╔══██╗    ██╔══██╗██║╚══██╔══╝██╔════╝
-            ███████║██╔██╗ ██║██║  ██║    ██████╔╝██║   ██║   ███████╗
-            ██╔══██║██║╚██╗██║██║  ██║    ██╔══██╗██║   ██║   ╚════██║
-            ██║  ██║██║ ╚████║██████╔╝    ██████╔╝██║   ██║   ███████║
-            ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝     ╚═════╝ ╚═╝   ╚═╝   ╚══════╝
-                                                                      
-''')
-
+print(f"Welcome to SMS forwarder by 71ZK1")
+                  
 # Defining function for forwarding sms
 def smsforward():
     global looper #refferencing main looper varibale
